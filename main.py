@@ -43,9 +43,9 @@ except ValueError:
 ADMINS.append(OWNER)
 
 bot = Client("bot",    
-   bot_token="",    
-   api_id= ,    
-   api_hash= ""
+   BOT_TOKEN="",    
+   API_ID="",
+   API_HASH="",
 )
 
 @bot.on_message(filters.command(["started"]))    
